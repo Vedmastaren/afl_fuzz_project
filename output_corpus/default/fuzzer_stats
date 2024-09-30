@@ -1,43 +1,45 @@
-start_time        : 1727691992
-last_update       : 1727692043
-run_time          : 50
-fuzzer_pid        : 1328000
-cycles_done       : 9
-cycles_wo_finds   : 9
+start_time        : 1727701850
+last_update       : 1727702038
+run_time          : 188
+fuzzer_pid        : 2874980
+cycles_done       : 466
+cycles_wo_finds   : 466
 time_wo_finds     : 0
-execs_done        : 63391
-execs_per_sec     : 1253.98
-execs_ps_last_min : 0.00
-corpus_count      : 3
+execs_done        : 642457
+execs_per_sec     : 3415.96
+execs_ps_last_min : 3377.83
+corpus_count      : 1
 corpus_favored    : 1
 corpus_found      : 0
 corpus_imported   : 0
 corpus_variable   : 0
 max_depth         : 1
-cur_item          : 1
+cur_item          : 0
 pending_favs      : 0
 pending_total     : 0
 stability         : 100.00%
-bitmap_cvg        : 20.00%
+bitmap_cvg        : 22.22%
 saved_crashes     : 0
 saved_hangs       : 0
 last_find         : 0
 last_crash        : 0
 last_hang         : 0
-execs_since_crash : 63391
+execs_since_crash : 642457
 exec_timeout      : 20
 slowest_exec_ms   : 0
-peak_rss_mb       : 6
+peak_rss_mb       : 4
 cpu_affinity      : 0
 edges_found       : 4
-total_edges       : 20
+total_edges       : 18
 var_byte_count    : 0
 havoc_expansion   : 5
 auto_dict_entries : 0
-testcache_size    : 22
-testcache_count   : 3
+testcache_size    : 4
+testcache_count   : 1
 testcache_evict   : 0
-afl_banner        : ./hello_afl
+afl_banner        : ./bazel-afl_fuzz_project/hello_afl
 afl_version       : ++4.09c
 target_mode       : shmem_testcase default
-command_line      : afl-fuzz -i input_corpus -o output_corpus ./hello_afl @@
+command_line      : afl-fuzz -i input_corpus -o output_corpus ./bazel-afl_fuzz_project/hello_afl @@
+virgin_bytes     : 6[fe] 10[fe] 13[fe] 14[fe]
+var_bytes        :

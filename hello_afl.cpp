@@ -8,9 +8,7 @@ void fuzz_me(const char *input) {
         std::cout << "Crashing now!" << std::endl;
         int *p = nullptr; // Skapa en null-pointer
         *p = 42; // Dereferera null-pointer (detta kommer att krascha)
-    } else {
-        std::cout << "Not triggered." << std::endl;
-    }
+    } 
 }
 
 int main(int argc, char **argv) {
