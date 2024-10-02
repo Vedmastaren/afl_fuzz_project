@@ -18,6 +18,7 @@ sudo apt-get install cmake
 sudo apt-get install autoconf
 sudo apt-get install automake
 
+
 ```
 After installation, you should be able to use the `afl-fuzz` command.
 ### 2. **Set Up Bazel Rules for Fuzzing**
